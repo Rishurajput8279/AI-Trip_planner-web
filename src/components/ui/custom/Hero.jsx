@@ -11,7 +11,7 @@ function Hero() {
         </h1>
         <p className='text-sm text-gray-500 text-center'>Your personal trip planner and travel curator, creating custom itineraries tailored to your interests and budget</p>
         <Link to={'/create-trip'}>
-                <Button>Get Started, It's Free</Button>
+                <Button className="z-10 relative">Get Started, It's Free</Button>
         </Link>
 
         <img src="/Landing1.png" alt="" className='-mt-20'/>
